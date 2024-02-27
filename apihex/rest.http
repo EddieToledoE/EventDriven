@@ -1,0 +1,10 @@
+# Worker Service
+
+### Create a new worker
+POST http://localhost:7777/workers/create
+Content-Type: application/json
+
+{
+  "name": "John Doe",
+  "job": "Software Engineer"
+}
