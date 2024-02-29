@@ -1,0 +1,13 @@
+### Create a new affiliation
+POST http://localhost:9999/affiliations/create
+Content-Type: application/json
+
+{
+  "worker":[
+    {
+        "id":"1",
+        "name":"Wintechin",
+        "job":"Software Engineer"
+    }
+  ]
+}
